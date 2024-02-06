@@ -2,6 +2,9 @@
 # Iterates through each column and row of the mine grid
 # Then for each mine free spot '-' in the grid adjacent to the mine '#'  counts the number of free mine spots 
 def mine_adj(mine_grid):
+   if not isinstance(mine_grid, list) or not all(isinstance(row, list) for row in mine_grid):
+        raise ValueError("Input must be a list of lists representing a mine grid.")
+   
    row = len(mine_grid)
    if row == 0:
       pass
