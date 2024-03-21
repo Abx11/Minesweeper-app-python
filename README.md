@@ -67,9 +67,11 @@ Generates the following output:
 
 To use the Minesweeper app in your project, follow these steps:
 
-1. Copy the `mine_adj` function into your codebase.
-2. Provide a valid mine grid as input to the `mine_adj` function.
-3. Use the generated `new_grid` to access the mine counts for each spot.
+1. Clone the repository https://github.com/Abx11/Minesweeper-app-python.git
+2. Open terminal or command prompt 'cd' to the directory of the repository
+3. Copy the `mine_adj` function into your codebase.
+4. Provide a valid mine grid as input to the `mine_adj` function.
+5. Use the generated `new_grid` to access the mine counts for each spot.
 
 Feel free to explore and integrate this Minesweeper app into your Python projects!
 
